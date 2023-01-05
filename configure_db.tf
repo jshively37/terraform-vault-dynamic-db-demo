@@ -1,5 +1,8 @@
 resource "vault_database_secrets_mount" "postgres" {
   path = "db"
+  description = "Postgres Database"
+  default_lease_ttl_seconds = 3600  # Default to 1 hour
+  max_lease_ttl_seconds = 14400 # Renewable up to 4 hours
 
   postgresql {
     name = "postgres"
