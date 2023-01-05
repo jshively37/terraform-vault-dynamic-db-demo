@@ -1,6 +1,6 @@
 # Dynamic DB Demo
 
-Builds a Vault environment that is used for demo'ing Vault's dynamic database secrets using a postgres docker container.
+Builds a Vault environment that is used for demoing Vault's dynamic database secrets using a Postgres docker container.
 
 This is for demo purpose only.
 
