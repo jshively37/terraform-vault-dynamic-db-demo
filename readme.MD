@@ -1,8 +1,11 @@
-# Dynamic DB Demo
+# HashiCorp Vault and Postgres Dynamic DB Demo
 
-Builds a Vault environment that is used for demoing Vault's dynamic database secrets using a Postgres docker container.
+Repo that contains a shell script and Terraform code that will configure the following:
 
-This is for demo purpose only.
+* A shell script will launch a Postgres docker container and a HashiCorp dev vault instance with the token set to root.
+* Terraform code that will configure the dev Vault environment to create dynamic Postgres credentials using the Postgres docker container.
+
+*NOTE* This is for demo purpose only.
 
 ## Requirements
 
