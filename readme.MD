@@ -63,5 +63,7 @@ lease_renewable    true
 ## Shutting down the environment
 
 Issue a `terraform destroy -auto-approve` to remove the Vault configuration
+
 Issue a `ctrl + c` to terminate the vault instance
+
 To find the running container issue a `docker container ls | grep postgres` and then `docker container stop {{ container_id }}`
