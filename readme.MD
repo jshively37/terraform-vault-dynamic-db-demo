@@ -19,7 +19,7 @@ Terraform==1.3.7
 
 In a terminal window, issue the `./start/docker_vault_start.sh`. This shell script is responsible for:
 
-* Launch a docker container using the latest MongoDB docker container.
+* Launch a docker container using the latest Postgres docker container.
 * Start a vault dev instance with the token set to root.
 
 
