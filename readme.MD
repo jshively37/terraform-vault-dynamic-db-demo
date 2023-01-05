@@ -43,7 +43,7 @@ Once Vault has been configured use the following commands to interact with Vault
 
 Create a dynamic user: `vault read db/creds/readonly`
 
-List the db users configured:
+List the db users configured on the Postgres Docker container:
 ```docker
 docker exec -i \
     postgresdb \
